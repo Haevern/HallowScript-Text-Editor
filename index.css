@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
+
+html, body {
+  height: 100%;
+  background: radial-gradient(#003, #000);
+  overflow: hidden;
+  color: #ffffff;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+select  {
+    border: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 7.5px;
+}
+
+iframe  {
+    background-color:rgb(255,255,255, 0.25);
+}

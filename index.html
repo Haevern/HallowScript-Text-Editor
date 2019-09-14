@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>HallowScript Text Editor</title>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body onload="enableEditMode();">
+        <div class="main">
+        <br />
+        <center>
+        <h1>HallowScript Text Editor/HallowScript translation here</h1>
+        <br /><br />
+        <div class="font">
+            <select onchange="execCommandWithArg('fontName', this.value);">
+                <option value="Arial">Arial</option>
+                <option value="HallowScript">HallowScript</option>
+            </select>
+        </div>
+        <br />
+        <div class="iframe">
+        <iframe name="richTextField" style="width: 1000px; height: 500px;"></iframe>
+        </div>
+        <script src="index.js" text/javascript"></script>
+        </center>
+    </body>
+</html>
